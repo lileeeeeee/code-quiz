@@ -1,0 +1,33 @@
+.container {
+display: inline-block;
+}
+
+#opening {
+text-align: center;
+}
+.card {
+    display: block;
+    background-color: #7f8274 ;
+    border: solid black;
+    border-width: 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.openingbutton {
+    display: block;
+    background-color: #196eb4 ;
+    border: solid rgb(99, 50, 155);
+    color: white;
+    border-width: 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+#questions {
+    display: none;
+}
+#scoreinitials {
+    display: none;
+}
+#lastcard {
+    display: none;
+}
