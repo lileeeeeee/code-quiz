@@ -9,25 +9,30 @@
 </head>
 <body>
     <header>
-        <button type="button" class = "viewhighscores">View high Scores</button>    
+        <button type="button" id="highScore">View high Scores</button>
+         <div class = "timerdisplay">text</div>   
     </header>
     <div class = "container">
-    <div class = "card" id = "opening">
-     <h1>CODING QUIZ</h1>
-    <article>This quiz will test your coding knowledge. Your time limit is displayed in the upper right. Wrong answers are subject to a time penalty.</article>
-    <button type="button" class = "openingbutton">START QUIZ</button>    
+        <div class = "card" id = "opening">
+            <h1>CODING QUIZ</h1>
+            <article>This quiz will test your coding knowledge. Your time limit is displayed in the upper right. Wrong answers are subject to a time penalty.</article>
+            <button type="button" class = "openingButton">START QUIZ</button>    
+        </div>
+        <div class = "card" id="questions">
+            <h2> Here is the question</h2>
+            <button type="button" class = "one">answer1</button>
+            <button type="button" class = "two">answer2</button>
+            <button type="button" class = "three">answer3</button>
+            <button type="button" class = "four">answer4</button>
+            <div class = "rightOrWrong">
+            right or wrong answer text
+        </div>
     </div>
-    <div class = "card" id="questions">
-        <h2> Here is the question</h2>
-        <button type="button" class = "1">answer1</button>
-        <button type="button" class = "2">answer2</button>
-        <button type="button" class = "3">answer3</button>
-        <button type="button" class = "4">answer4</button>
-    </div>
-    <div class = "card" id = "scoreinitials"></div>
-    <div class = "card" id = "lastcard"></div>
+    <div class = "card" id = "scoreInitials">ENTRY PAGE FOR INITIALS</div>
+    <div class = "card" id = "last">LASTCARD</div>
 </div>
     
 <script src="./assets/script.js"></script>   
 </body>
 </html>
+

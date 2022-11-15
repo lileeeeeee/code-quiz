@@ -25,9 +25,10 @@ text-align: center;
 #questions {
     display: none;
 }
-#scoreinitials {
+#scoreInitials {
     display: none;
 }
-#lastcard {
+#last {
     display: none;
+    
 }
