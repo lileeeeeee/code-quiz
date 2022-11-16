@@ -22,8 +22,9 @@ text-align: center;
     border-radius: 25px;
     padding: 20px;
 }
+
 #questions {
-    display: none;
+    display:none;
 }
 #scoreInitials {
     display: none;
