@@ -6,6 +6,7 @@ This is a timed quiz that keeps score while you answer questions and allows you 
 
 ## Installation
 Website is available here: https://lileeeeeee.github.io/code-quiz and looks like this:
+
 ![screenshot](./assets/codequizscreenshot.jpg)
 
 ## Usage
