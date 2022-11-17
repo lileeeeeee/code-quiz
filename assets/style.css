@@ -1,28 +1,62 @@
+header {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+/*timer countdown*/
+.timerdisplay { 
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}  
+
 .container {
-display: inline-block;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-#opening {
-text-align: center;
-}
+/*all quiz cards*/
 .card {
-    display: block;
+    display:block;
     background-color: #7f8274 ;
     border: solid black;
-    border-width: 10px;
-    border-radius: 25px;
+    border-width: 5px;
+    border-radius: 20px;
     padding: 20px;
-}
-.openingbutton {
-    display: block;
-    background-color: #196eb4 ;
-    border: solid rgb(99, 50, 155);
-    color: white;
-    border-width: 10px;
-    border-radius: 25px;
-    padding: 20px;
+    margin: 20px 20px;
+    text-align: center;
 }
 
+/*quiz text*/
+article {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/*all buttons*/
+button {
+    background-color: #b7bba8 ;
+    border: solid black;
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+  }
+button:hover {
+    background-color: #e7ecd4 ;
+    
+}
+  
+/*highscore button*/
+#highScore {
+    background-color: white;
+    color: black;
+    border:none;
+  }
+
+/*at start, all cards except opening are hidden*/
 #questions {
     display:none;
 }
@@ -32,4 +66,18 @@ text-align: center;
 #last {
     display: none;
     
+}
+
+@media only screen and (max-width: 601px) {
+ 
+ .card {
+    display:block;
+    background-color: #7f8274 ;
+    border: solid black;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+ }
 }

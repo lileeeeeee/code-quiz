@@ -10,12 +10,12 @@
 <body>
     <header>
         <button type="button" id="highScore">View high Scores</button>
-         <div class = "timerdisplay">text</div>   
+        <div class = "timerdisplay"></div>   
     </header>
     <div class = "container">
         <div class = "card" id = "opening">
             <h1>CODING QUIZ</h1>
-            <article>This quiz will test your coding knowledge. Your time limit is displayed in the upper right. Wrong answers are subject to a time penalty.</article>
+            <article>This coding quiz will test your coding knowledge. The timer will start counting down once you click start and wrong answers are subject to a five-second time penalty.</article>
             <button type="button" class = "openingButton">START QUIZ</button>    
         </div>
         <div class = "card" id="questions">
@@ -24,16 +24,18 @@
             <button type="button" class = "two">answer2</button>
             <button type="button" class = "three">answer3</button>
             <button type="button" class = "four">answer4</button>
-            <div class = "rightOrWrong">
-            right or wrong answer text
-        </div>
+            <div class = "rightOrWrong"></div>
     </div>
     <div class = "card" id = "scoreInitials">
         Please enter your initials
      <input type = "text" id = "initials"> 
     <button type = "button" id = "submit">SUBMIT</button>
     </div>
-    <div class = "card" id = "last">LASTCARD</div>
+    <div class = "card" id = "last">
+        <ul id = "highscores"></ul>
+        <button type="button"class="clear">CLEAR SCORES</button>
+        <button type="button"class="playagain">PLAY AGAIN</button>
+    </div>
 </div>
     
 <script src="./assets/script.js"></script>   
