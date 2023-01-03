@@ -5,7 +5,7 @@ a browser app containing a multiple choice coding quiz
 This is a timed quiz that keeps score while you answer questions and allows you to add your high score at the end. 
 
 ## Installation
-Website is available here: https://lileeeeeee.github.io/code-quiz and looks like this:
+Website is available here: https://llangerud.github.io/code-quiz and looks like this:
 
 ![screenshot](./assets/codequizscreenshot.jpg)
 
